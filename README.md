@@ -61,6 +61,9 @@ Be aware that we're looking at both `e.detail` and `e.which`. In modern browsers
 
 Also note that we're calling `parseInt` on the key value. This is because the event handler might pass us the string representation of the number, which wouldn't work so well with our comparisons.
 
+## Does this need an update?
+ Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-js-dom-and-events-konami-code-lab/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-js-dom-and-events-konami-code-lab/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 ## Resources
 - [Konami Code](https://en.wikipedia.org/wiki/Konami_Code)
 - [MDN — keydown][keydown]
